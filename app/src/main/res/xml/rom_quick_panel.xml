@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:grx="http://schemas.android.com/apk/res-auto">
+    <GrxButtonPreference grx:button_Style="big" grx:button_Text="Press here to apply all changes" grx:confirmKillpackage="false" grx:killpackage="com.android.systemui" />
+    <GrxSwitchPreference android:title="Dual SIM bar" android:key="ed_dualsim_switch" android:defaultValue="false" android:summaryOn="Enabled" android:summaryOff="Disabled" />
+	<GrxPreferenceCategory android:title="Next alarm" />
+	<GrxSwitchPreference android:title="Next alarm" android:key="next_alarm_switch2" android:defaultValue="false" android:summaryOn="Enabled" android:summaryOff="Disabled" />
+    <GrxColorPicker android:title="Text color" android:key="next_alarm_color2" android:defaultValue="0xff000000" grx:showAlphaSlider="true" />	 		 			 
+    <GrxColorPicker android:title="Icon color" android:key="next_alarm_icon_color" android:defaultValue="0xff000000" grx:showAlphaSlider="true" />
+    <GrxPreferenceCategory android:title="Quick-tiles" />
+    <GrxSeekBar android:title="Portrait" android:key="dlx_rows_portrait" android:defaultValue="6" grx:commonBcExtra="arg" grx:interval="1" grx:maxValue="8" grx:minValue="5" grx:systemType="system" grx:units=" Tiles" />
+    <GrxSeekBar android:title="Landscape" android:key="dlx_rows_landscape" android:defaultValue="10" grx:commonBcExtra="arg" grx:interval="1" grx:maxValue="16" grx:minValue="5" grx:systemType="system" grx:units=" Tiles" />
+    <GrxPreferenceCategory android:title="Native blur" />
+    <GrxSeekBar android:title="Native blur" android:key="b_ga_panel_blur" android:defaultValue="0" grx:interval="1" grx:maxValue="35" grx:minValue="0" grx:showPopup="true" grx:units=" %" />
+	<GrxPreferenceCategory android:title="Data usage view" />
+    <GrxSwitchPreference android:title="Data usage view" android:key="dx_data_usage_visibility" android:defaultValue="false" grx:systemType="system" />
+	<GrxSingleSelection android:title="Position" android:key="dx_data_usage_gravity" android:defaultValue="2" grx:optionsArray="@array/data_usage_gravity_entries" grx:systemType="system" grx:valuesArray="@array/data_usage_gravity_values" />
+    <GrxColorPicker android:title="Color" android:key="dx_data_usage_color" android:defaultValue="0xff000000" grx:colorPickerStyle="flower" grx:saveValueOnFly="false" grx:systemType="system" />
+    <GrxColorPicker android:title="Color on night mode" android:key="dx_data_usage_color_on_dark" android:defaultValue="0xffffffff" grx:colorPickerStyle="flower" grx:saveValueOnFly="false" grx:systemType="system" />
+	<GrxSingleSelection android:title="Font" android:key="dx_data_usage_font" android:defaultValue="0" grx:optionsArray="@array/date_font_entries" grx:systemType="system" grx:valuesArray="@array/date_font_values" />
+    <GrxSeekBar android:title="Size" android:key="dx_data_usage_size" android:defaultValue="12" grx:interval="1" grx:maxValue="25" grx:minValue="1" grx:systemType="system" />  
+</PreferenceScreen>

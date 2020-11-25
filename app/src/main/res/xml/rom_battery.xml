@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:grx="http://schemas.android.com/apk/res-auto">
+    <GrxButtonPreference grx:button_Style="big" grx:button_Text="Press here to apply all changes" grx:confirmKillpackage="false" grx:killpackage="com.android.systemui" />
+    <GrxPreferenceCategory android:title="Icon" />
+    <GrxSingleSelection android:title="Default" android:key="icon_blacklist" android:defaultValue="1" grx:optionsArray="@array/battery_hide_views_entries" grx:separator="," grx:systemType="secure" grx:valuesArray="@array/battery_hide_views_values" />
+	<GrxSwitchPreference android:title="Percentage" android:key="display_battery_percentage" android:defaultValue="false" grx:systemType="system" />
+    <GrxPreferenceCategory android:title="Bar" />
+    <GrxSingleSelection android:title="Bar" android:key="batterybar_viewed" android:defaultValue="0" grx:optionsArray="@array/battery_bar_entries" grx:units="%s" grx:valuesArray="@array/battery_bar_values" />
+    <GrxSwitchPreference android:title="Animation" android:key="batterybar_animated_views" android:defaultValue="false" android:summaryOn="Enabled" android:summaryOff="Disabled" />
+    <GrxSingleSelection android:title="Style" android:key="batterybar_locations" android:defaultValue="1" grx:optionsArray="@array/battery_bar_style_entries" grx:units="%s" grx:valuesArray="@array/battery_bar_style_values" />
+    <GrxSeekBar android:title="Thickness" android:key="batterybar_sized" android:dependency="batterybar_viewed" android:defaultValue="1" grx:interval="1" grx:maxValue="48" grx:minValue="1" grx:showPopup="true" grx:units=" dp" />
+    <GrxColorPicker android:title="Color" android:key="batterybar__color" android:summary="Choose color of battery bar" android:defaultValue="0xFF2BEE2B" grx:showAlphaSlider="true" />
+    <GrxColorPicker android:title="Charging color" android:key="batterybar_charging_color" android:defaultValue="0xFFFFFFFF" grx:showAlphaSlider="true" />
+    <GrxColorPicker android:title="Low battery color" android:key="batterybar_low_warning_color" android:defaultValue="0xFFFFFFFF" grx:colorPickerStyle="flower" grx:showAlphaSlider="true" grx:showAutoButton="true" />
+    <GrxSwitchPreference android:title="Use gradient" android:key="batterybar_switch_gradients" android:summary="Set colors below" android:defaultValue="false" />
+    <GrxColorPicker android:title="Middle color" android:key="batterybar_low_color" android:dependency="batterybar_switch_gradients" android:defaultValue="0xFFFF4444" grx:showAlphaSlider="true" />
+    <GrxColorPicker android:title="Edges color" android:key="batterybar_high_color" android:dependency="batterybar_switch_gradients" android:defaultValue="0xFF99CC00" grx:showAlphaSlider="true" />
+</PreferenceScreen>
+

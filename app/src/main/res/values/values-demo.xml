@@ -1,26 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <!-- Info fragment tabs -->
-
-
-    <string-array name="demo_tabs_names">
+<string-array name="demo_tabs_names">
         <item>About this app</item>
         <item>Features</item>
         <item>Credits</item>
     </string-array>
-
     <string-array name="demo_tabs_layouts">
         <item>demo_info_about_tab</item>
         <item>demo_info_changelog_tab</item>
         <item>demo_info_credits_tab</item>
-
     </string-array>
-
-    <!-- info texts -->
-
-
-
     <string name="gs_bp_property">grx.demo.prop</string>
     <string-array name="demo_build_prop_options">
         <item>grx.demo.prop HELLO</item>
@@ -30,7 +19,6 @@
         <item>grx.demo.prop REMOVE_GROUP,HELLO</item>
         <item>grx.demo.prop REMOVE_SCREEN,REMOVE_PREFERENCE</item>
 </string-array>
-
     <string-array name="demo_screen_timeout_options">
         <item>15 seconds</item>
         <item>30 seconds</item>
@@ -38,7 +26,6 @@
         <item>2 minutes</item>
         <item>5 minutes</item>
         <item>10 minutes</item>
-
     </string-array>
     <string-array name="demo_screen_timeout_values">
         <item>15000</item>
@@ -48,7 +35,6 @@
         <item>300000</item>
         <item>600000</item>
     </string-array>
-
     <string-array name="demo_lists_entries">
         <item>Alarm</item>
         <item>Airplane</item>
@@ -94,7 +80,6 @@
         <item>11</item>
         <item>12</item>
     </string-array>
-
     <string-array name="test_sb_views_options">
         <item>Notification Icons</item>
         <item>knox text(never seen)</item>
@@ -105,7 +90,6 @@
         <item>Battery Icon</item>
         <item>Clock</item>
     </string-array>
-
     <string-array name="test_sb_views_values">
         <item>notifications</item>
         <item>knox</item>
@@ -116,7 +100,6 @@
         <item>batterymeterview</item>
         <item>clock</item>
     </string-array>
-
     <string-array name="demo_spinner_options">
         <item>Left</item>
         <item>Center</item>
@@ -127,7 +110,6 @@
         <item>1</item>
         <item>2</item>
    </string-array>
-
     <integer-array name="demo_lists_colors">
         <item>0xffffffff</item>
         <item>0xff252525</item>
@@ -143,7 +125,6 @@
         <item>0xff876941</item>
         <item>0xffe6d3a5</item>
     </integer-array>
-
     <string-array name="demo_changelog">
         <item>30 hightly customizable type of preferences</item>
         <item>Preferences can be declared using their short class name.</item>
@@ -176,9 +157,7 @@
         <item>For a detailed description of the preferences added and their customizable xml attributes, visit the github project, folder demo and guide.\n
             In demo mode you can check all the existing preferences, and the main options added to them. Use demo screens as reference when you add your own preferences and screens.\n
         Some styiling attributes have been added, you can see them in the demo.</item>
-
     </string-array>
-
     <string-array name="demo_useroptions">
         <item>Show Rom info screen.</item>
         <item>Show App help screen.</item>
@@ -198,21 +177,17 @@
         <item>com.sec.android.daemonapp/com.sec.android.daemonapp.appwidget.WeatherAppWidget2x1</item>
         <item>com.sec.android.daemonapp/com.sec.android.daemonapp.appwidget.WeatherAppWidget</item>
     </string-array>
-
     <string-array name="backup_wifi_key">
         <item>mount -o rw,remount /data</item>
         <item>mkdir -p /sdcard/backups/wifibackup</item>
         <item>cp -rf /data/misc/wifi/wpa_supplicant.conf /sdcard/backups/wifibackup</item>
     </string-array>
-
     <string-array name="restore_wifi_key">
         <item>mount -o rw,remount /data</item>
         <item>cp -rf /sdcard/backups/wifibackup/wpa_supplicant.conf /data/misc/wifi/</item>
     </string-array>
-
     <string-array name="delete_wifi_backup">
         <item>mount -o rw,remount /data</item>
         <item>rm -r /sdcard/backups/wifibackup</item>
     </string-array>
-
 </resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:grx="http://schemas.android.com/apk/res-auto">
+    <GrxButtonPreference grx:button_Style="big" grx:button_Text="Press here to apply all changes" grx:confirmKillpackage="false" grx:killpackage="com.android.systemui" />
+    <GrxPreferenceCategory android:title="Clock" />
+    <GrxSwitchPreference android:title="Clock" android:key="status_bar_clock" android:defaultValue="true" android:summaryOn="Enabled" android:summaryOff="Disabled" />
+    <GrxSingleSelection android:title="Position" android:key="statusbar_clock_style" android:defaultValue="0" grx:optionsArray="@array/clock_style_entries" grx:valuesArray="@array/clock_style_values" />
+    <GrxSwitchPreference android:title="Size" android:key="size_toggle" android:defaultValue="false" android:summaryOn="Changeable" android:summaryOff="Default" />
+    <GrxSeekBar android:title="Font size" android:key="statusbar_clock_font_size" android:dependency="size_toggle" android:defaultValue="18" grx:interval="1" grx:maxValue="50" grx:minValue="5" grx:showPopup="true" grx:units=" dp" />
+    <GrxColorPicker android:title="Color" android:key="statusbar_clock_color" android:summary="Change color" android:defaultValue="0xDAFAFAFA" grx:showAlphaSlider="true" />
+    <GrxInfoText android:summary="WARNING! Set CAFAFAFA to get default clock color" />
+    <GrxSingleSelection android:title="Font" android:key="statusbar_clock_font_style" android:defaultValue="0" grx:optionsArray="@array/clock_font_style_entries" grx:valuesArray="@array/clock_font_style_values" />
+    <GrxSingleSelection android:title="AM/PM" android:key="statusbar_clock_am_pm_style" android:dependency="status_bar_clock" android:defaultValue="0" grx:optionsArray="@array/entries_status_bar_am_pm" grx:valuesArray="@array/values_status_bar_am_pm" />
+    <GrxCheckBoxPreference android:title="Seconds" android:key="clock_use_second" android:defaultValue="false" android:summaryOn="Enabled" android:summaryOff="Disabled" />
+    <GrxSwitchPreference android:title="Click on clock to open app" android:key="tap_clock_launcher" android:defaultValue="false" android:summaryOn="Enabled" android:summaryOff="Disabled" />
+    <GrxAccess android:title="Select app, activity, shortcut" android:key="press_clock_custom_app" android:summary="Select what to launch when clicking on clock" android:dependency="tap_clock_launcher" grx:showActivities="true" grx:showApplications="true" grx:showShortcuts="true" />
+    <GrxPreferenceCategory android:title="Date" />
+    <GrxSingleSelection android:title="Date" android:key="statusbar_clock_date_display" android:defaultValue="0" grx:optionsArray="@array/clock_date_display_entries" grx:valuesArray="@array/clock_date_display_values" />
+    <GrxSingleSelection android:title="Style" android:key="statusbar_clock_date_style" android:defaultValue="0" grx:optionsArray="@array/clock_date_style_entries" grx:valuesArray="@array/clock_date_style_values" />
+    <GrxSingleSelection android:title="Position" android:key="statusbar_clock_date_position" android:defaultValue="0" grx:optionsArray="@array/clock_date_position_entries" grx:valuesArray="@array/clock_date_position_values" />
+    <GrxSingleSelection android:title="Format" android:key="statusbar_clock_date_format" android:defaultValue="EEE" grx:optionsArray="@array/clock_date_format_entries_values" grx:valuesArray="@array/clock_date_format_entries_values" />
+    <GrxEditText android:title="Custom format" android:key="statusbar_clock_date_format" android:summary="Custom format" android:defaultValue="EEEdd.MM" />
+</PreferenceScreen>

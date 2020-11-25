@@ -1,16 +1,703 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <!-- Info fragment tabs -->
-
-
-    <string-array name="rom_tabs_names"> <!-- do not change this array name !!!! -->
-        <item>Rom Info</item>
+<string-array name="rom_tabs_names">
+     <item>Rom Info</item>
+</string-array>
+<string-array name="rom_tabs_layouts">
+     <item>rom_info_tab</item>
+</string-array>
+# Volume Skip Tracks
+    <string name="skip_tracks_category">Skip tracks when screen is off</string>
+    <string name="info_skip_tracks">Play/stop works when the phone is not in deep sleep and a music app has got the audio focus (is playing o was playing not too long ago. When in deep sleep volume keys are not enabled by the system</string>
+    <string name="enable_skip_tracks">Enable skip tracks</string>
+    <string name="double_tap_skip_tracks">Double click play/stop music</string>
+    <string name="time_skip_tracks">Long press min time</string>
+    <string name="time_dc_skip_tracks">Double click max time</string>
+    <string name="vibrate_skip_tracks">Vibrate on long and double click</string>
+    <string name="vibrate_skip_tracks_summary">The mod uses system feedback vibration intensity, however it is not needed to enable main system switch for vibration feedback</string>
+    <string name="vibrate_skip_intensity">Vibration feedback intensity</string>
+# Animation Scale
+<string-array name="window_animation_scale_entries">
+     <item>Animation off</item>
+     <item>Animation scale 0.2x</item>
+     <item>Animation scale 0.25x</item>
+     <item>Animation scale 0.3x</item>
+     <item>Animation scale 0.4x</item>
+     <item>Animation scale 0.5x</item>
+     <item>Animation scale 0.6x</item>
+     <item>Animation scale 0.7x</item>
+     <item>Animation scale 0.8x</item>
+     <item>Animation scale 0.9x</item>
+     <item>Animation scale 1x</item>
+     <item>Animation scale 1.5x</item>
+     <item>Animation scale 2x</item>
+     <item>Animation scale 3x</item>
+     <item>Animation scale 5x</item>
+     <item>Animation scale 10x</item>
+</string-array>
+<string-array name="window_animation_scale_values">
+     <item>0</item>
+     <item>.2</item>
+     <item>.25</item>
+     <item>.3</item>
+     <item>.4</item>
+     <item>.5</item>
+     <item>.6</item>
+     <item>.7</item>
+     <item>.8</item>
+     <item>.9</item>
+     <item>1</item>
+     <item>1.5</item>
+     <item>2</item>
+     <item>3</item>
+     <item>5</item>
+     <item>10</item>
+</string-array>
+# Quick Toggles
+<string-array name="toggle_entries">
+     <item>3</item>
+     <item>4</item>
+     <item>5</item>
+     <item>6 (default)</item>
+     <item>7</item>
+     <item>8</item>
+     <item>9</item>
+</string-array>
+<string-array name="toggle_values">
+     <item>3</item>
+     <item>4</item>
+     <item>5</item>
+     <item>6</item>
+     <item>7</item>
+     <item>8</item>
+     <item>9</item>
+</string-array>
+# Low Battery Notification
+<string-array name="lowbattpercentage_entries">
+     <item>3</item>
+     <item>5</item>
+     <item>10</item>
+     <item>15</item>
+</string-array>
+<string-array name="lowbattpercentage_values">
+     <item>3</item>
+     <item>5</item>
+     <item>10</item>
+     <item>15</item>
+</string-array>
+<string-array name="critbattpercentage_entries">
+     <item>1</item>
+     <item>2</item>
+     <item>3</item>
+     <item>5</item>
+</string-array>
+<string-array name="critbattpercentage_values">
+     <item>1</item>
+     <item>2</item>
+     <item>3</item>
+     <item>5</item>
+</string-array>
+# Network Traffic
+    <string-array name="traffic_entries">
+        <item>Right</item>
+        <item>Left</item>
     </string-array>
-
-    <string-array name="rom_tabs_layouts"> <!-- do not change this array name !!!! -->
-        <item>rom_info_tab</item>
+    <string-array name="traffic_state_items">
+        <item>Disable</item>
+        <item>Upload only</item>
+        <item>Download only</item>
+        <item>Upload and Download</item>
     </string-array>
-
-
+    <string-array name="traffic_state_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="traffic_style_entries">
+        <item>Normal</item>
+        <item>Bold</item>
+        <item>Italic</item>
+        <item>Bold italic</item>
+    </string-array>
+    <string-array name="traffic_style_entry_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="traffic_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+<string-array name="arrow_position_entries">
+        <item>On the back</item>
+        <item>On the front</item>
+    </string-array>
+    <string-array name="arrow_position_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+# Battery Bar
+<string-array name="battery_bar_entries">
+     <item>Disabled</item>
+     <item>Enabled</item>
+</string-array>
+<string-array name="battery_bar_style_entries">
+     <item>Center-mirrored</item>
+     <item>Regular</item>
+</string-array>
+<string-array name="battery_bar_style_values">
+     <item>1</item>
+     <item>0</item>
+</string-array>
+<string-array name="battery_bar_values">
+     <item>0</item>
+     <item>1</item>
+</string-array>
+# Battery
+<string-array name="battery_hide_views_entries">
+     <item>Disabled</item>
+     <item>Enabled</item>
+</string-array>
+<string-array name="battery_hide_views_values">
+     <item>battery</item>
+     <item>shown</item>
+</string-array>
+<string name="display_battery_percentage">Percentage</string>
+# Clock Date
+<string-array name="clock_date_display_entries">
+     <item>Disabled</item>
+     <item>Small</item>
+     <item>Regular</item>
+</string-array>
+<string-array name="clock_date_display_values">
+     <item>0</item>
+     <item>1</item>
+     <item>2</item>
+</string-array>
+<string-array name="clock_date_format_entries_values">
+     <item>dd MM yy</item>
+     <item>dd/ MM/ yy</item>
+     <item>dd. MM. yy</item>
+     <item>dd- MM- yy</item>
+     <item>MM dd yy</item>
+     <item>MM/ dd/ yy</item>
+     <item>MM. dd. yy</item>
+     <item>MM- dd- yy</item>
+     <item>yyyy MM dd</item>
+     <item>yyyy- MM- dd</item>
+     <item>yyyy/ MM/ dd</item>
+     <item>yyyy. MM. dd</item>
+     <item>yyyy dd MM</item>
+     <item>yyyy- dd- MM</item>
+     <item>yyyy/ dd/ MM</item>
+     <item>yyyy. dd. MM</item>
+     <item>yy dd MM</item>
+     <item>yy- dd- MM</item>
+     <item>yy/ dd/ MM</item>
+     <item>yy. dd. MM</item>
+     <item>yy dd MMM</item>
+     <item>yy- dd- MMM</item>
+     <item>yy/ dd/ MMM</item>
+     <item>yy. dd. MMM</item>
+     <item>yy dd MMMM</item>
+     <item>yy- dd- MMMM</item>
+     <item>yy/ dd/ MMMM</item>
+     <item>yy. dd. MMMM</item>
+     <item>MMM dd</item>
+     <item>MMM dd yyyy</item>
+     <item>MMM dd/ yyyy</item>
+     <item>MMM dd- yyyy</item>
+     <item>MMM dd. yyyy</item>
+     <item>MMMM dd/ yyyy</item>
+     <item>MMMM dd yyyy</item>
+     <item>MMMM dd- yyyy</item>
+     <item>MMMM dd. yyyy</item>
+     <item>dd</item>
+     <item>EEE</item>
+     <item>EEE dd</item>
+     <item>EEE dd MM</item>
+     <item>EEE dd/ MM</item>
+     <item>EEE dd- MM</item>
+     <item>EEE dd. MM</item>
+     <item>EEE dd MM yy</item>
+     <item>EEE dd/ MM/ yy</item>
+     <item>EEE dd- MM- yy</item>
+     <item>EEE dd. MM. yy</item>
+     <item>EEE dd MM yyyy</item>
+     <item>EEE dd/ MM/ yyyy</item>
+     <item>EEE dd- MM- yyyy</item>
+     <item>EEE dd. MM. yyyy</item>
+     <item>EEE MM dd</item>
+     <item>EEE MM/ dd</item>
+     <item>EEE MM- dd</item>
+     <item>EEE MM. dd</item>
+     <item>EEE MM dd yy</item>
+     <item>EEE MM/ dd/ yy</item>
+     <item>EEE MM- dd- yy</item>
+     <item>EEE MM. dd. yy</item>
+     <item>EEE MM dd yyy</item>
+     <item>EEE MM/ dd/ yyy</item>
+     <item>EEE MM- dd- yyy</item>
+     <item>EEE MM. dd. yyy</item>
+     <item>EEE dd MMM</item>
+     <item>EEE dd/ MMM</item>
+     <item>EEE dd- MMM</item>
+     <item>EEE dd. MMM</item>
+     <item>EEE dd MMMM</item>
+     <item>EEE dd/ MMMM</item>
+     <item>EEE dd- MMMM</item>
+     <item>EEE dd. MMMM</item>
+     <item>EEE MMM dd</item>
+     <item>EEE MMM/ dd</item>
+     <item>EEE MMM. dd</item>
+     <item>EEE MMM- dd</item>
+     <item>EEE MMMM dd</item>
+     <item>EEE MMMM/ dd</item>
+     <item>EEE MMMM. dd</item>
+     <item>EEE MMMM- dd</item>
+     <item>EEEE dd MM</item>
+     <item>EEEE dd/ MM</item>
+     <item>EEEE dd- MM</item>
+     <item>EEEE dd.MM</item>
+     <item>EEEE MM dd</item>
+     <item>EEEE MM/ dd</item>
+     <item>EEEE MM- dd</item>
+     <item>EEEE MM. dd</item>
+     <item>EEEE dd MMMM</item>
+     <item>EEEE dd/ MMMM</item>
+     <item>EEEE dd- MMMM</item>
+     <item>EEEE dd. MMMM</item>
+     <item>EEEE dd yyyy</item>
+     <item>EEEE dd/ yyyy</item>
+     <item>EEEE dd- yyyy</item>
+     <item>EEEE dd. yyyy</item>
+     <item>EEEE dd MMM</item>
+     <item>EEEE dd/ MMM</item>
+     <item>EEEE dd- MMM</item>
+     <item>EEEE dd. MMM</item>
+     <item>EEEE dd yy</item>
+     <item>EEEE dd/ yy</item>
+     <item>EEEE dd- yy</item>
+     <item>EEEE dd. yy</item>
+     <item>EEE dd MMM yyyy</item>
+     <item>EEE dd/ MMM/ yyyy</item>
+     <item>EEE dd. MMM. yyyy</item>
+     <item>EEE dd- MMM- yyyy</item>
+     <item>EEE dd MMMM yyyy</item>
+     <item>EEE dd- MMMM- yyyy</item>
+     <item>EEE dd/ MMMM/ yyyy</item>
+     <item>EEE dd. MMMM. yyyy</item>
+     <item>EEEE dd MMM yyyy</item>
+     <item>EEEE dd/ MMM/ yyyy</item>
+     <item>EEEE dd. MMM. yyyy</item>
+     <item>EEEE dd- MMM- yyyy</item>
+     <item>EEEE dd MMMM yyyy</item>
+     <item>EEEE dd- MMMM- yyyy</item>
+     <item>EEEE dd/ MMMM/ yyyy</item>
+     <item>EEEE dd. MMMM. yyyy</item>
+     <item>EEE dd MMM yy</item>
+     <item>EEE dd/ MMM/ yy</item>
+     <item>EEE dd- MMM- yy</item>
+     <item>EEE dd. MMM. yy</item>
+     <item>EEE dd MMMM yy</item>
+     <item>EEE dd/ MMMM/ yy</item>
+     <item>EEE dd- MMMM- yy</item>
+     <item>EEE dd. MMMM. yy</item>
+     <item>EEEE dd MMM yy</item>
+     <item>EEEE dd/ MMM/ yy</item>
+     <item>EEEE dd- MMM- yy</item>
+     <item>EEEE dd. MMM. yy</item>
+     <item>EEEE dd MMMM yy</item>
+     <item>EEEE dd/ MMMM/ yy</item>
+     <item>EEEE dd- MMMM- yy</item>
+     <item>EEEE dd. MMMM. yy</item>
+</string-array>
+<string-array name="clock_date_position_entries">
+     <item>Left of clock</item>
+     <item>Right of clock</item>
+</string-array>
+<string-array name="clock_date_position_values">
+     <item>0</item>
+     <item>1</item>
+</string-array>
+<string-array name="clock_date_style_entries">
+     <item>Normal</item>
+     <item>Lowercase</item>
+     <item>UPPERCASE</item>
+</string-array>
+<string-array name="clock_date_style_values">
+     <item>0</item>
+     <item>1</item>
+     <item>2</item>
+</string-array>
+<string-array name="clock_font_style_entries">
+     <item>Use system font</item>
+     <item>Italic</item>
+     <item>Bold</item>
+     <item>Bold italic</item>
+     <item>Light</item>
+     <item>Light italic</item>
+     <item>Thin</item>
+     <item>Thin italic</item>
+     <item>Crisp italic</item>
+     <item>Thick fat</item>
+     <item>Dense bold italic</item>
+     <item>Medium</item>
+     <item>Medium italic</item>
+</string-array>
+<string-array name="clock_font_style_values">
+     <item>0</item>
+     <item>1</item>
+     <item>2</item>
+     <item>3</item>
+     <item>4</item>
+     <item>5</item>
+     <item>6</item>
+     <item>7</item>
+     <item>9</item>
+     <item>10</item>
+     <item>11</item>
+     <item>12</item>
+</string-array>
+<string-array name="clock_style_entries">
+     <item>Left</item>
+     <item>Center</item>
+     <item>Right</item>
+     <item>Disabled</item>
+</string-array>
+<string-array name="clock_style_values">
+     <item>0</item>
+     <item>1</item>
+     <item>2</item>
+     <item>3</item>
+</string-array>
+<string-array name="entries_status_bar_am_pm">
+     <item>Disabled</item>
+     <item>Small</item>
+     <item>Regular</item>
+</string-array>
+<string-array name="values_status_bar_am_pm">
+     <item>0</item>
+     <item>1</item>
+     <item>2</item>
+</string-array>
+# Data Usage
+<string-array name="data_usage_gravity_entries">
+     <item>Left</item>
+     <item>Center</item>
+     <item>Right</item>
+</string-array>
+<string-array name="data_usage_gravity_values">
+     <item>0</item>
+     <item>1</item>
+     <item>2</item>
+</string-array>
+<string-array name="data_usage_text_style_entries">
+     <item>Normal</item>
+     <item>Bold</item>
+     <item>Italic</item>
+     <item>Bold italic</item>
+</string-array>
+<string-array name="data_usage_text_style_values">
+     <item>0</item>
+     <item>1</item>
+     <item>2</item>
+     <item>3</item>
+</string-array>
+# Icons
+<string name="hide_show_views">Select views to hide</string>
+    <string name="hide_show_views_sum">This option is applied both in user and lock screens. It only applies to main views and system icons</string>
+	<string name="battery_and_text">Battery</string>
+    <string name="clock">Clock</string>
+    <string name="mobile">Mobile</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="airplane">Airplane</string>
+    <string name="nfc">NFC</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="alarm">Alarm Clock</string>
+    <string name="cast">Screen Cast</string>
+    <string name="wifi_p2p">Wi-Fi P2P/Mirroring</string>
+    <string name="wifi_calling">Wi-Fi Calling/VoLTE</string>
+    <string name="location">Location</string>
+    <string name="volume">Volume</string>
+    <string name="power_saving">Power saver</string>
+    <string name="data_saver">Data saver</string>
+    <string name="hotspot">Hotspot</string>
+    <string name="zen">Do not disturb</string>
+    <string name="rcs">RCS</string>
+    <string name="wearable_gear">Wearable Gear</string>
+    <string name="private_mode">Private Mode</string>
+    <string name="secure_mode">Secure Mode</string>
+    <string name="smart_network">Smart Network</string>
+    <string name="headset">Headset</string>
+    <string name="rotation">Rotation</string>
+    <string name="carrier">Carrier Text</string>
+<string-array name="sb_hide_views_options">
+     <item>@string/clock</item>
+        <item>@string/battery_and_text</item>
+        <item>@string/carrier</item>
+        <item>@string/mobile</item>
+        <item>@string/wifi</item>
+        <item>@string/airplane</item>
+        <item>@string/nfc</item>
+        <item>@string/bluetooth</item>
+        <item>@string/alarm</item>
+        <item>@string/cast</item>
+        <item>@string/wifi_p2p</item>
+        <item>@string/wifi_calling</item>
+        <item>@string/location</item>
+        <item>@string/volume</item>
+        <item>@string/power_saving</item>
+        <item>@string/data_saver</item>
+        <item>@string/hotspot</item>
+        <item>@string/zen</item>
+        <item>@string/rcs</item>
+        <item>@string/wearable_gear</item>
+        <item>@string/private_mode</item>
+        <item>@string/secure_mode</item>
+        <item>@string/smart_network</item>
+        <item>@string/headset</item>
+        <item>@string/rotation</item>
+</string-array>
+<string-array name="sb_hide_views_values">
+     <item>clock</item>
+        <item>battery</item>
+        <item>carrier</item>
+        <item>mobile</item>
+        <item>wifi</item>
+        <item>airplane</item>
+        <item>nfc</item>
+        <item>bluetooth</item>
+        <item>alarm_clock</item>
+        <item>cast</item>
+        <item>wifi_p2p</item>
+        <item>ims_volte</item>
+        <item>location</item>
+        <item>volume</item>
+        <item>power_saver</item>
+        <item>data_saver</item>
+        <item>hotspot</item>
+        <item>zen</item>
+        <item>com.samsung.rcs</item>
+        <item>wearable_gear</item>
+        <item>private_mode</item>
+        <item>secure</item>
+        <item>smart_network</item>
+        <item>headset</item>
+        <item>rotate</item>
+</string-array>
+<string-array name="statusbar_icon_views_multiselect_entries">
+        <item>Rotation</item>
+        <item>Wifi p2p (mirroring..)</item>
+        <item>Battery</item> 
+        <item>Alarm Clock</item> 
+        <item>Wifi Calling</item>
+        <item>Mobile Signal</item> 
+        <item>Power Save</item> 
+        <item>Airplane Mode</item> 
+        <item>HeadSet</item> 
+        <item>Data Saver</item> 
+        <item>Volume</item> 
+        <item>Wifi Signal</item>
+        <item>Nfc</item> 
+        <item>Bluetooth</item> 
+        <item>Private Mode</item>
+        <item>Location</item> 
+        <item>Secure Mode</item> 
+        <item>smart network</item>
+        <item>gps</item>
+        <item>wearable gear</item>
+        <item>RCS</item>
+        <item>volte</item>
+        <item>ime</item>
+        <item>zen</item>
+        <item>hotspot</item>
+        <item>sync active</item>
+        <item>cast</item>
+        <item>speakerphone</item>
+        <item>felica lock</item>  
+    <item>VoWiFi</item>
+        <item>ethernet</item>
+        <item>clock</item>
+        <item>Bluetooth Connected</item>
+        <item>HD2</item>
+        <item>nw booster</item>
+        <item>data connection</item>
+        <item>mute</item>
+        <item>bt tethering</item>
+        <item>remote spen</item>
+        <item>VPN</item>    
+        <item>Carrier Text</item>    
+    </string-array>
+    <string-array name="statusbar_icon_views_multiselect_values">
+        <item>rotate</item>
+        <item>wifi_p2p</item>
+        <item>battery</item> 
+        <item>alarm_clock</item>
+        <item>ims_volte</item>
+        <item>mobile</item>
+        <item>power_saver</item>
+        <item>airplane</item>
+        <item>headset</item>
+        <item>data_saver</item>
+        <item>volume</item>
+        <item>wifi</item>
+        <item>nfc</item>
+        <item>bluetooth</item>
+        <item>private_mode</item>
+        <item>location</item>
+        <item>secure</item>
+        <item>smart_network</item>
+        <item>gps</item>
+        <item>wearable_gear</item>
+        <item>com.samsung.rcs</item>
+        <item>volte</item>
+        <item>ime</item>
+        <item>zen</item>
+        <item>hotspot</item>
+        <item>sync_active</item>
+        <item>cast</item>
+        <item>speakerphone</item>
+        <item>felica_lock</item>
+        <item>vowifi</item>
+        <item>ethernet</item>
+        <item>clock</item>
+        <item>bluetooth_connected</item>
+        <item>ims_volte2</item>
+        <item>nw_booster</item>
+        <item>data_connection</item>
+        <item>mute</item>
+        <item>bt_tethering</item>
+        <item>remote_spen</item>
+        <item>vpn</item>    
+        <item>carrier</item>    
+    </string-array>
+# Immersive Mode
+<string name="default_config">Default configuration</string>
+<string name="full_creen">Full screen</string>
+<string name="hide_status_bar">Hide status bar</string>
+<string-array name="immersive_entries">
+     <item>Disabled (Default)</item>
+     <item>Enabled (Full screen)</item>
+     <item>Hide status bar</item>
+     <item>Hide navigation bar</item>
+</string-array>
+<string-array name="immersive_values">
+     <item>immersive.full</item>
+     <item>immersive.full=*</item>
+     <item>immersive.status=*</item>
+     <item>immersive.navigation=*</item>
+</string-array>
+    <string-array name="date_font_entries">
+        <item>Default</item>
+        <item>Abductionsmall</item>
+        <item>ABEAKRG</item>
+        <item>AddisAbaba</item>
+        <item>AGentleTouch</item>
+        <item>AirmoleStripe</item>
+        <item>Aller</item>
+        <item>AndroidClock</item>
+        <item>Arial</item>
+        <item>Arial_RB</item>
+        <item>AristonExRegular</item>
+        <item>ArrayBold</item>
+        <item>Astandardbold</item>
+        <item>Attic</item>
+        <item>Barmeno105</item>
+        <item>Bauhaus</item>
+        <item>Beau_Sans_Pro_Book</item>
+        <item>beautifuleverytime</item>
+        <item>Belligerentbold</item>
+        <item>BlackChancery</item>
+        <item>Bluehigh</item>
+        <item>Bluehighbold</item>
+        <item>BubbleLetters</item>
+        <item>Cantaneobold</item>
+        <item>Caprica</item>
+        <item>Cartoon</item>
+        <item>caviardreams_bold</item>
+        <item>Celtic</item>
+        <item>comicsansms</item>
+        <item>Cooljazz</item>
+        <item>Darkromanticism</item>
+        <item>Dustismobold</item>
+        <item>FeastOfFlesh</item>
+        <item>Felipe</item>
+        <item>GalantNormal</item>
+        <item>Gezoe</item>
+        <item>GillSansMTItalic</item>
+        <item>HelveticaNeueCE55Roman</item>
+        <item>Jaramondbold</item>
+        <item>Laneposhbold</item>
+        <item>Lauren</item>
+        <item>Melonio</item>
+        <item>Metal</item>
+        <item>MotleyCrue</item>
+        <item>NokiaPure</item>
+        <item>Petermorgan</item>
+        <item>Piratebold</item>
+        <item>Questbold</item>
+        <item>Roboto</item>
+        <item>Roboto-Bold</item>
+        <item>Rosemary</item>
+        <item>Sansationbold</item>
+        <item>Segoe</item>
+    </string-array>
+    <string-array name="date_font_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+    </string-array>
 </resources>

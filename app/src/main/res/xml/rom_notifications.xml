@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:grx="http://schemas.android.com/apk/res-auto">
+    <GrxButtonPreference grx:button_Style="big" grx:button_Text="Press here to apply all changes" grx:confirmKillpackage="false" grx:killpackage="com.android.systemui" />
+    <GrxSwitchPreference android:title="Heads-up" android:summaryOff="Disabled" android:summaryOn="Enabled" android:defaultValue="true" android:key="is_less_boring_heads_up" />
+	<GrxSwitchPreference android:title="Expand" android:key="is_expand_noti" android:defaultValue="false" android:summaryOn="Enabled" android:summaryOff="Disabled" />
+	<GrxSwitchPreference android:title="Clearable" android:key="is_ongoing_notif_can_be_removable" android:defaultValue="false" android:summaryOn="Enabled" android:summaryOff="Disabled" />
+	<GrxPreferenceCategory android:title="Battery" />
+	<GrxSingleSelection android:title="Low battery percentage" android:key="low_battery_warning_percentage" android:defaultValue="15" grx:optionsArray="@array/lowbattpercentage_entries" grx:valuesArray="@array/lowbattpercentage_values" />
+    <GrxSingleSelection android:title="Critical battery percentage" android:key="critical_battery_warning_percentage" android:defaultValue="5" grx:optionsArray="@array/critbattpercentage_entries" grx:valuesArray="@array/critbattpercentage_values" />
+</PreferenceScreen>

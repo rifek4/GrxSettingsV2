@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:grx="http://schemas.android.com/apk/res-auto">
+    <GrxButtonPreference grx:button_Style="big" grx:button_Text="Press here to apply all changes" grx:confirmKillpackage="false" grx:killpackage="com.android.systemui" />
+    <GrxPreferenceCategory android:title="Default" />
+    <GrxSwitchPreference android:title="Default" android:key="network_speed" android:defaultValue="false" grx:systemType="system" />
+</PreferenceScreen>

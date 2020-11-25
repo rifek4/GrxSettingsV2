@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:grx="http://schemas.android.com/apk/res-auto">
+    <GrxButtonPreference grx:button_Style="big" grx:button_Text="Press here to apply all changes" grx:confirmKillpackage="false" grx:killpackage="com.android.systemui" />
+    <GrxMultipleSelection android:title="Hide icons" android:key="icon_blacklist" android:summary="@string/hide_show_views_sum" android:defaultValue="rotate,headset" grx:optionsArray="@array/sb_hide_views_options" grx:separator="," grx:systemType="secure" grx:valuesArray="@array/sb_hide_views_values" />
+    <GrxSwitchPreference android:title="Data icon" android:key="lte_4g_view" android:defaultValue="false" android:summaryOn="LTE" android:summaryOff="4G" />
+    <GrxSwitchPreference android:title="Signal clusters" android:key="simpl" android:defaultValue="false" android:summary="" android:summaryOn="5" android:summaryOff="4" />
+    <GrxInfoText android:summary="WARNING! With 5 clusters only 4G icon is working" />
+</PreferenceScreen>

@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu
-    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <Text android:icon="@drawable/demo_icon_info" android:id="@+id/demo_categories_infotext" android:title="Category and info" app:showIconSpace="false" />
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Group android:id="@+id/statusbar_mods" app:collapsed="true" app:collapsible="true">
+        <GroupHeader android:icon="@drawable/menu_status_bar" android:id="@+id/statusbar_header" android:hint="" android:title="Status bar" />
+        <Separator />
+        <Text android:id="@+id/rom_battery" android:title="Battery" app:showIconSpace="true" />
+        <Text android:id="@+id/rom_network_traffic" android:title="Network traffic" app:showIconSpace="true" />
+        <Text android:id="@+id/rom_statusbar_others" android:title="Others" app:showIconSpace="true" />
+        <Separator />
+    </Group>
+    <Group android:id="@+id/rom_notifications_panel" app:collapsed="true" app:collapsible="true">
+        <GroupHeader android:icon="@drawable/menu_status_bar" android:id="@+id/rom_notification_panel" android:hint="" android:title="Quick panel" />
+        <Separator />
+        <Text android:id="@+id/rom_quick_panel" android:title="Options" app:showIconSpace="true" />
+        <Text android:id="@+id/rom_notifications" android:title="Notifications" app:showIconSpace="true" />
+        <Separator />
+    </Group>
+    <Text android:icon="@drawable/menu_status_bar" android:id="@+id/rom_lockscreen" android:hint="" android:title="Lockscreen" />
+    <Text android:icon="@drawable/menu_status_bar" android:id="@+id/rom_skip_tracks" android:hint="" android:title="Volume buttons" />
+    <Text android:icon="@drawable/menu_status_bar" android:id="@+id/rom_others" android:hint="" android:title="Others" />
 </menu>

@@ -4,7 +4,6 @@
     <Separator/>
     <CenteredText android:title="@string/grxs_title_rom_app_info_options" android:checked="true"/>
     <Separator/>
-
     <TextWithBadge
         android:id="@+id/grx_mid_rom_info"
         android:title="@string/grxs_rom_info"
@@ -21,7 +20,6 @@
     <Separator/>
     <CenteredText android:title="@string/grxs_title_theming_options" android:checked="true"/>
     <Separator/>
-
     <TextWithBadge
         android:id="@+id/grx_mid_theme"
         android:title="@string/grxs_select_theme"
@@ -31,12 +29,10 @@
         android:id="@+id/grx_mid_header_svn_back"
         android:title="@string/grxs_nav_header_bg"
         android:checkable="false" />
-
     <TextWithBadge
         android:id="@+id/grx_mid_divider_height"
         android:title="@string/grxs_divider_height"
         android:checkable="false" />
-
     <TextWithBadge
         android:id="@+id/grx_mid_color_picker_style"
         android:title="@string/grxs_color_picker_style"
@@ -44,7 +40,6 @@
     <Separator/>
     <CenteredText android:title="@string/grxs_title_fab_options" android:checked="true"/>
     <Separator/>
-
     <Checkbox
         android:id="@+id/grx_mid_show_fab"
         android:title="@string/grxs_show_fab"
@@ -63,20 +58,17 @@
         android:title="@string/grxs_show_recents_fw"
         android:checked="false"
         android:checkable="true"/>
-
     <Checkbox
         android:id="@+id/grx_mid_fw_dismiss_back"
         android:title="@string/grxs_hide_recents_fw_back"
         android:checked="false"
         android:checkable="true" />
-
     <Checkbox
         android:id="@+id/grx_mid_fw_dismiss_outside"
         android:title="@string/grxs_hide_recents_fw_outside"
         android:hint="@string/grxs_hide_recents_fw_outside_hint"
         android:checked="false"
         android:checkable="true" />
-
     <Separator/>
     <CenteredText android:title="@string/grxs_title_navview_options" android:checked="true"/>
     <Separator/>
@@ -85,7 +77,6 @@
         android:title="@string/grxs_drawer_right"
         android:checked="false"
         android:checkable="true"/>
-
     <Checkbox
         android:id="@+id/grx_mid_groups_open"
         android:title="@string/grxs_groups_open"
@@ -99,17 +90,14 @@
     <Separator/>
     <CenteredText android:title="@string/grxs_title_other_options" android:checked="true"/>
     <Separator/>
-
     <Checkbox
         android:id="@+id/grx_mid_remember_screen"
         android:title="@string/grxs_remember_screen"
         android:checked="false"
         android:checkable="true" />
-
     <Checkbox
         android:id="@+id/grx_mid_exit_confirmation"
         android:title="@string/grxs_exit_confirmation"
         android:checked="false"
         android:checkable="true" />
-
 </menu>

@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <resources>
-
-
-
-
-
-    <!-- Application strings, arrays, etc. -->
-
     <string name="gs_rom_info_option">Rom Info</string>
-
     <string name="grxs_recents_screens_title">Recent Screens</string>
     <string name="grxs_buildprop_simulator">Simulate Build Prop</string>
     <string name="grxs_navigation_drawer_open">Open navigation drawer</string>
@@ -46,7 +37,6 @@
     <string name="grxs_theme_light_green_orange">Gren-Ora. (Light))</string>
     <string name="grxs_theme_white_bluegrey">Blue Grey Light</string>
     <string name="grxs_theme_black_white">Black Light</string>
-
     <string name="grxs_bp_noroot">Root permission is needed to carry out build prop demo!!</string>
     <string name="grxs_bp_title">Current value = %1$s </string>
     <string name="grxs_bp_simulator_title">Build Prop Simulator</string>
@@ -164,7 +154,6 @@
     <string name="grxs_pulse_speed_title">Pulse Speed (Time On - Time Off)</string>
     <string name="grxs_pulse_app_null">No App Selected</string>
     <string name="grxs_pulse_no_screenoff">It was not possible to screen off to test. Please screen off manually to check the led settings.</string>
-
     <string name="grxs_savesettings_exception">A problem ocurred while saving the value in settings. Try installing the app in priv-app</string>
     <string name="grxs_draganddroptoshortout">Drag and drop the elements to short out the list</string>
     <string name="grxs_select_option">Select Option</string>
@@ -198,8 +187,6 @@
         <item>3 px</item>
         <item>4 px</item>
     </string-array>
-
-
     <string-array name="grxa_theme_list">
         <item>@string/grxs_theme_white_bluegrey</item>
         <item>@string/grxs_theme_black_white</item>
@@ -209,9 +196,7 @@
         <item>@string/grxs_theme_black_and_white</item>
         <item>@string/grxs_theme_black_ics</item>
         <item>@string/grxs_theme_black_red</item>
-
     </string-array>
-
     <string-array name="grxa_theme_values">
         <item>Theme.White.BlueGrey</item>
         <item>Theme.Black.Light</item>
@@ -221,23 +206,16 @@
         <item>Theme.Black.White</item>
         <item>Theme.Black.Ics</item>
         <item>Theme.Black.Red</item>
-
     </string-array>
-
     <string-array name="grxa_panel_header_options">
         <item>@string/grxs_remove_header_img</item>
         <item>@string/grxs_change_header_img</item>
     </string-array>
-
-
-
     <string-array name="grxa_colorpickerstyles">
         <item>@string/grxs_flower</item>
         <item>@string/grxs_circle</item>
         <item>@string/grxs_square</item>
     </string-array>
-
-
     <string name="grxs_pulse_always_on">Always On</string>
     <string name="grxs_pulse_100ms">100 mSec.</string>
     <string name="grxs_pulse_300ms">300 mSec.</string>
@@ -250,8 +228,6 @@
     <string name="grxs_pulse_7s">7 Sec.</string>
     <string name="grxs_pulse_10s">10 Sec</string>
     <string name="grxs_pulse_15s">15 Sec</string>
-
-
     <string-array name="grxa_ledpulse_ton_options">
         <item>@string/grxs_pulse_always_on</item>
         <item>@string/grxs_pulse_100ms</item>
@@ -265,7 +241,6 @@
         <item>@string/grxs_pulse_7s</item>
         <item>@string/grxs_pulse_10s</item>
     </string-array>
-
     <string-array name="grxa_ledpulse_ton_values">
         <item>1</item>
         <item>100</item>
@@ -292,7 +267,6 @@
         <item>@string/grxs_pulse_10s</item>
         <item>@string/grxs_pulse_15s</item>
     </string-array>
-
     <string-array name="grxa_ledpulse_toff_values">
         <item>100</item>
         <item>300</item>
@@ -306,7 +280,6 @@
         <item>10000</item>
         <item>15000</item>
     </string-array>
-
     <string-array name="grxa_app_help">
         <item>Most of the preferences can be reset to their default values by double clicking.</item>
         <item>Please, read the help buttons which appear in some preferences. That help will tell you how to delete, sort, or whatever is enabled by the dev.</item>
@@ -323,40 +296,16 @@
         - Selectable themes\n
         </item>
     </string-array>
-
-    <!-- SUBLIME NAVIGATION VIEW RESOURCES -->
-
-    <!-- Copyright (C) 2015 Vikram Kakkar
-
-         Licensed under the Apache License, Version 2.0 (the "License");
-         you may not use this file except in compliance with the License.
-         You may obtain a copy of the License at
-
-              http://www.apache.org/licenses/LICENSE-2.0
-
-         Unless required by applicable law or agreed to in writing, software
-         distributed under the License is distributed on an "AS IS" BASIS,
-         WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-         See the License for the specific language governing permissions and
-         limitations under the License.
-    -->
-
-
     <color name="snv_primary_material_light">#ff212121</color>
     <color name="snv_primary_material_dark">#fff5f5f5</color>
-
     <color name="snv_ripple_material_light">#1f000000</color>
     <color name="snv_ripple_material_dark">#42ffffff</color>
-
     <color name="snv_background_material_light">#fffafafa</color>
     <color name="snv_background_material_dark">#ff303030</color>
-
     <color name="snv_primary_text_default_material_light">#de000000</color>
     <color name="snv_primary_text_default_material_dark">#ffffff</color>
-
     <color name="snv_primary_text_disabled_material_light">#39000000</color>
     <color name="snv_primary_text_disabled_material_dark">#4Dffffff</color>
-
     <dimen name="snv_navigation_icon_padding">32dp</dimen>
     <dimen name="snv_navigation_icon_size">24dp</dimen>
     <dimen name="snv_navigation_elevation">12dp</dimen>
@@ -364,43 +313,31 @@
     <dimen name="snv_navigation_padding_top_default">0dp</dimen>
     <dimen name="snv_navigation_padding_bottom">8dp</dimen>
     <dimen name="snv_navigation_separator_vertical_padding">8dp</dimen>
-
     <style name="SnvDefaultTextAppearance" parent="TextAppearance.AppCompat.Body2">
         <item name="android:textSize">15sp</item>
     </style>
-
     <style name="SnvDefaultItemTextAppearance" parent="TextAppearance.AppCompat.Body2">
         <item name="android:textSize">15sp</item>
     </style>
-
     <style name="SnvDefaultHintTextAppearance" parent="TextAppearance.AppCompat.Body1">
         <item name="android:textSize">14sp</item>
     </style>
-
     <style name="SnvDefaultSubheaderItemTextAppearance" parent="TextAppearance.AppCompat.Body2">
         <item name="android:textSize">15sp</item>
     </style>
-
     <style name="SnvDefaultSubheaderHintTextAppearance" parent="TextAppearance.AppCompat.Body1">
         <item name="android:textSize">14sp</item>
     </style>
-
     <style name="SnvDefaultBadgeTextAppearance" parent="TextAppearance.AppCompat.Body2">
         <item name="android:textSize">15sp</item>
     </style>
-
     <style name="SnvScrimInsetsFrameLayout" parent="">
         <item name="snvInsetForeground">#4000</item>
     </style>
-
     <style name="SnvSublimeNavigationView" parent="">
         <item name="elevation">@dimen/snv_navigation_elevation</item>
         <item name="android:background">#999900</item>
         <item name="android:fitsSystemWindows">true</item>
         <item name="android:maxWidth">@dimen/snv_navigation_max_width</item>
     </style>
-
-
-
-
 </resources>

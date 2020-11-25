@@ -2,12 +2,10 @@
 <com.fab.ObservableScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:include="http://schemas.android.com/tools"
-
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="match_parent"
     android:id="@+id/observableview">
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -16,13 +14,50 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" >
             <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+ <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="5dp"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textColor="?colorAccent" android:textSize="18sp" android:text="Ultimate Q ROM"/>
 
-                 <TextView android:layout_marginTop="4dp" android:layout_marginBottom="4dp" android:layout_width="match_parent" android:layout_height="wrap_content"
-                    android:text="Reference layout for info tabs creation..." android:textSize="18dp" android:textStyle="bold" android:gravity="center" android:textColor="?complemnt_accent_color"/>
+                <TextView android:layout_marginTop="4dp" android:layout_marginBottom="4dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:text="by rifek4" android:textSize="14dp" android:gravity="center" android:textColor="?colorAccent"/>
 
+			<TextView android:layout_marginTop="8dp" android:layout_marginBottom="2dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:text="Links" android:textSize="18dp" android:textStyle="bold" android:gravity="center" android:textColor="?complemnt_accent_color"/>
+
+                <com.grx.settings.views.LinearLayoutWithLink
+                    grxURL="https://ultimate-rom.com" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="68dp" android:layout_marginEnd="68dp"
+                    android:background="?selectableItemBackground" android:orientation="horizontal">
+                    <ImageView android:layout_width="36dp" android:layout_height="36dp" android:layout_gravity="center_horizontal" android:layout_marginStart="68dp" android:src="@drawable/homepage"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="match_parent" android:gravity="center" android:layout_marginStart="15dp"
+                        android:text="Homepage" android:textColor="?complementary_color9" />
+                </com.grx.settings.views.LinearLayoutWithLink>
+
+                <com.grx.settings.views.LinearLayoutWithLink
+                    grxURL="https://t.me/Ultimate_ROM" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="68dp" android:layout_marginEnd="68dp"
+                    android:background="?selectableItemBackground" android:orientation="horizontal">
+                    <com.grx.settings.views.ImageViewWithLink
+                        android:layout_width="36dp" android:layout_height="36dp" android:layout_gravity="center_horizontal" android:layout_marginStart="68dp" android:src="@drawable/telegram"/>
+                    <TextView android:layout_width="wrap_content"  android:layout_height="match_parent"  android:gravity="center" android:layout_marginStart="15dp"
+                        android:text="Telegram" android:textColor="?complementary_color10" />
+                </com.grx.settings.views.LinearLayoutWithLink>
+				
+				<com.grx.settings.views.LinearLayoutWithLink
+                    grxURL="https://www.ultimate-rom.com/donate.html" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="68dp" android:layout_marginEnd="68dp"
+                    android:background="?selectableItemBackground" android:orientation="horizontal">
+                    <com.grx.settings.views.ImageViewWithLink
+                        android:layout_width="36dp" android:layout_height="36dp" android:layout_gravity="center_horizontal" android:layout_marginStart="68dp" android:src="@drawable/donate"/>
+                    <TextView android:layout_width="wrap_content"  android:layout_height="match_parent"  android:gravity="center" android:layout_marginStart="15dp"
+                        android:text="Donate" android:textColor="?complementary_color6"/>/>
+                </com.grx.settings.views.LinearLayoutWithLink>
+		    
+			<TextView android:layout_marginTop="8dp" android:layout_marginBottom="2dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:text="Thanks" android:textSize="18dp" android:textStyle="bold" android:gravity="center" android:textColor="?complemnt_accent_color"/>
+			
+		    <TextView android:layout_marginTop="4dp" android:layout_marginBottom="4dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:text="Thanks to all befriended developers, donators and users of my ROM because it exists thanks to all of you" android:textSize="14dp" android:gravity="center" android:textColor="?colorAccent"/>
 
             </LinearLayout>
         </FrameLayout>
     </LinearLayout>
-
 </com.fab.ObservableScrollView>

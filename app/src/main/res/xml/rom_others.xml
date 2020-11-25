@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:grx="http://schemas.android.com/apk/res-auto">
+    <GrxSwitchPreference android:title="Long press recent to multi-windows" android:key="b_enable_lprecents" android:summaryOn="Enabled" android:summaryOff="Disabled" android:defaultValue="false"/>
+    <GrxSwitchPreference android:title="Long press back to kill" android:key="lp_back_key" android:defaultValue="false" android:summaryOn="Enabled" android:summaryOff="Disabled" />
+    <GrxSwitchPreference android:title="USB plug in/out wakeup" android:key="wakeup_display_usb" android:defaultValue="true" android:summaryOn="Enabled" android:summaryOff="Disabled" />
+    <GrxPreferenceCategory android:title="Charging" />
+    <GrxSwitchPreference android:title="USB fast charging" android:key="adaptive_fast_charging" android:defaultValue="true" android:summaryOn="Enabled" android:summaryOff="Disabled" grx:systemType="global"/>
+    <GrxSwitchPreference android:title="Wireless fast charging" android:key="wireless_fast_charging" android:defaultValue="true" android:summaryOn="Enabled" android:summaryOff="Disabled" grx:systemType="global"/>
+    <GrxPreferenceCategory android:title="Animations" />
+    <GrxSingleSelection android:title="Window animation scale" android:key="window_animation_scale" android:summary="" android:defaultValue="1" grx:optionsArray="@array/window_animation_scale_entries" grx:systemType="global" grx:valuesArray="@array/window_animation_scale_values" />
+    <GrxSingleSelection android:title="Transition animation scale" android:key="transition_animation_scale" android:summary="" android:defaultValue="1" grx:optionsArray="@array/window_animation_scale_entries" grx:systemType="global" grx:valuesArray="@array/window_animation_scale_values" />
+    <GrxSingleSelection android:title="Animator duration scale" android:key="animator_duration_scale" android:summary="" android:defaultValue="1" grx:optionsArray="@array/window_animation_scale_entries" grx:systemType="global" grx:valuesArray="@array/window_animation_scale_values" />
+    <GrxPreferenceCategory android:title="Immersive mode"/>
+    <GrxSingleSelection grx:optionsArray="@array/immersive_entries" android:title="Inmmersive mode" android:key="policy_control" android:summary="" android:defaultValue="immersive.full" grx:valuesArray="@array/immersive_values" grx:systemType="global" />
+</PreferenceScreen>

@@ -6,11 +6,11 @@ apply plugin: 'com.android.application'
 
 
 android {
-    compileSdkVersion 22
-	//buildToolsVersion "22.0.1" // no need now, uncomment in older android studio vers.
-    //buildToolsVersion '28.0.3'  // no need now, uncomment in older android studio vers depending on the build tools you need.
+    compileSdkVersion 28
+	//buildToolsVersion "22.0.1"
+    buildToolsVersion '27.0.3'
     defaultConfig {
-        applicationId 'com.grx.settings'
+        applicationId 'com.ultimate.control'
         minSdkVersion 22
         targetSdkVersion 22 // Google Play Requires API 26 or Higher.
                             // If you still need API 22 to 25, uncomment in lintOptions Section the line checkReleaseBuilds false
@@ -46,6 +46,16 @@ android {
     }
     productFlavors {
     }
+
+	android.applicationVariants.all { final variant ->
+
+        variant.outputs.all {
+
+            outputFileName = "UltimateControl.apk"
+
+        }
+
+}
 /*
     dexOptions {
         javaMaxHeapSize "3g"
@@ -62,7 +72,7 @@ dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     testImplementation 'junit:junit:4.12'
 
-    // + notation just for older builds
+
     implementation 'com.android.support:recyclerview-v7:22+'
     implementation 'com.android.support:support-annotations:22+'
     implementation 'com.nineoldandroids:library:2.4.0'

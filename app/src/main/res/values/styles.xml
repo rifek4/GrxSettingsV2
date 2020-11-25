@@ -1,11 +1,5 @@
 <resources>
-
-    <!--               lIGHT THEMES           -->
-
-    <!-- Base theme Light  -->
-
-    <style name="Theme.Base.Light" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Preferences color attributes. Keep them here with these values. Override values in added preference attributes. -->
+     <style name="Theme.Base.Light" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="iconTint">#00000000</item>
         <item name="arrowColor">#00000000</item>
         <item name="checkboxColor">#00000000</item>
@@ -17,9 +11,6 @@
         <item name="textColor">#00000000</item>
         <item name="backgroundColor">#00000000</item>
         <item name="seekbarColor">#00000000</item>
-
-        <!-- Customize Base theme here. -->
-
         <item name="colorPrimary">#2196F3</item>
         <item name="tabs_text_color">@color/tabs_text_color_dark</item>
         <item name="tabs_indicator_color">#ffffff</item>
@@ -59,9 +50,12 @@
         <item name="complementary_color3">#ff7800</item>
         <item name="complementary_color4">#795548</item>
         <item name="complementary_color5">#3F51B5</item>
-
+        <item name="complementary_color6">#0099CB</item>
+        <item name="complementary_color7">#0069CB</item>
+        <item name="complementary_color8">#A9F010</item>
+        <item name="complementary_color9">#399400</item>
+        <item name="complementary_color10">#FA3495</item>
     </style>
-
     <style name="SublimeTheme" parent="ThemeOverlay.AppCompat.Light">
         <item name="colorPrimary">#2196F3</item>
         <item name="colorPrimaryDark">#1E88E5</item>
@@ -75,17 +69,9 @@
         <item name="svn_menuTextColor">#424242</item>
         <item name="svn_hintTextColor">#616161</item>
     </style>
-
     <style name="NavigationViewStyle" parent="SnvSublimeNavigationView">
         <item name="android:maxWidth">@dimen/snv_navigation_max_width</item>
     </style>
-
-
-
-
-    <!--               Blue Grey Light             -->
-
-
     <style name="Theme.White.BlueGrey" parent="@style/Theme.Base.Light">
         <item name="colorPrimary">#527da3</item>
         <item name="colorPrimaryDark">#426482</item>
@@ -106,19 +92,12 @@
         <item name="complementary_color3">#ff7800</item>
         <item name="complementary_color4">#795548</item>
         <item name="complementary_color5">#3F51B5</item>
-
     </style>
-
     <style name="SublimeTheme_white_bluegrey" parent="@style/SublimeTheme">
         <item name="colorPrimary">#598fba</item>
         <item name="colorPrimaryDark">#426482</item>
         <item name="colorAccent">#6da5d2</item>
     </style>
-
-
-
-    <!--               black light theme            -->
-
     <style name="Theme.Black.Light" parent="@style/Theme.Base.Light">
         <item name="colorPrimary">#212121</item>
         <item name="colorPrimaryDark">#323232</item>
@@ -142,21 +121,14 @@
         <item name="complementary_color3">#009688</item>
         <item name="complementary_color4">#795548</item>
         <item name="complementary_color5">#FF9800</item>
-
     </style>
-
     <style name="SublimeTheme_black_light" parent="@style/SublimeTheme">
-        <item name="colorPrimary">#607D8B</item> <!-- menu text color when selected -->
+        <item name="colorPrimary">#607D8B</item>
         <item name="colorPrimaryDark">#424242</item>
-        <item name="colorAccent">#607D8B</item> <!-- badge text color, checkbox and switch selected color -->
+        <item name="colorAccent">#607D8B</item>
         <item name="svn_fab_tint">#616161</item>
         <item name="svn_separatorColor">#212121</item>
-
     </style>
-
-
-
-    <!--               Green Light             -->
     <style name="Theme.Green.Light" parent="@style/Theme.Base.Light">
         <item name="colorPrimary">#ff26A69A</item>
         <item name="colorPrimaryDark">#ff009688</item>
@@ -168,7 +140,6 @@
         <item name="snackbar_bg">#ff4d8b85</item>
         <item name="toolbartitlecolor">#ffffff</item>
         <item name="toolbarsubtitlecolor">#fafafa</item>
-
         <item name="drawerArrowColor">#ffffffff</item>
         <item name="threedotscolor">#ffffffff</item>
         <item name="recentscreenstextcolor">#fafafa</item>
@@ -177,20 +148,13 @@
         <item name="complementary_color3">#3F51B5</item>
         <item name="complementary_color4">#795548</item>
         <item name="complementary_color5">#3F51B5</item>
-
     </style>
-
     <style name="SublimeTheme_green_light" parent="@style/SublimeTheme">
         <item name="colorPrimary">#ff26A69A</item>
         <item name="colorPrimaryDark">#ff009688</item>
         <item name="colorAccent">#ff4DB6AC</item>
     </style>
-
-
-    <!--               Red Light              -->
-
     <style name="Theme.Red.Light" parent="@style/Theme.Base.Light" >
-
         <item name="colorPrimary">#ffdb4437</item>
         <item name="colorPrimaryDark">#ffb93221</item>
         <item name="colorAccent">#ffdb4437</item>
@@ -206,11 +170,7 @@
         <item name="complementary_color3">#ffb93221</item>
         <item name="complementary_color4">#009688</item>
         <item name="complementary_color5">#880E4F</item>
-
-
-
     </style>
-
     <style name="SublimeTheme_red_light" parent="@style/SublimeTheme">
         <item name="navigationviewstyle">@style/NavigationViewStyle</item>
         <item name="svn_panel_bg">#fffafafa</item>
@@ -218,23 +178,12 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark_svn</item>
         <item name="colorAccent">@color/colorAccent_svn</item>
     </style>
-
-
-
-    <!--                        DARK THEMES                   -->
-
-    <!--               BASE Dark                     -->
-
-
     <style name="Theme.Base.Dark" parent="Theme.AppCompat">
-        <!-- Preferences color attributes. Keep them here with these values. Override values in added preference attributes. -->
         <item name="iconTint">#00000000</item>
         <item name="arrowColor">#00000000</item>
         <item name="checkboxColor">#00000000</item>
         <item name="switchColor">#00000000</item>
         <item name="iconsValueTint">#00000000</item>
-
-        <!-- customize theme here -->
         <item name="tabs_text_color">@color/tabs_text_color_dark</item>
         <item name="tabs_indicator_color">#ffffff</item>
         <item name="sublimetheme">@style/SublimeTheme_dark</item>
@@ -274,9 +223,12 @@
         <item name="complementary_color3">#80CBC4</item>
         <item name="complementary_color4">#81C784 </item>
         <item name="complementary_color5">#00BCD4</item>
+        <item name="complementary_color6">#0099CB</item>
+        <item name="complementary_color7">#0069CB</item>
+        <item name="complementary_color8">#A9F010</item>
+        <item name="complementary_color9">#399400</item>
+        <item name="complementary_color10">#FA3495</item>
     </style>
-
-
     <style name="SublimeTheme_dark" parent="ThemeOverlay.AppCompat.Dark">
         <item name="colorPrimary">#ff309ac1</item>
         <item name="colorPrimaryDark">#ff33b5e5</item>
@@ -290,12 +242,7 @@
         <item name="svn_separatorColor">#424242</item>
         <item name="svn_menuTextColor">#ffffff</item>
     </style>
-
-
-    <!-- Dark REd -->
-
-
-    <style name="Theme.Black.Red" parent="@style/Theme.Base.Dark">
+	<style name="Theme.Black.Red" parent="@style/Theme.Base.Dark">
         <item name="colorPrimary">#F44336</item>
         <item name="colorPrimaryDark">#D32F2F</item>
         <item name="colorAccent">#ff0000</item>
@@ -322,9 +269,7 @@
         <item name="complementary_color3">#EF5350</item>
         <item name="complementary_color4">#009688</item>
         <item name="complementary_color5">#2196F3</item>
-
     </style>
-
     <style name="SublimeTheme_black_red" parent="@style/SublimeTheme_dark">
         <item name="colorPrimary">#F44336</item>
         <item name="colorPrimaryDark">#B71C1C</item>
@@ -337,23 +282,11 @@
         <item name="svn_separatorHeight">1dp</item>
         <item name="svn_separatorColor">#2d2e30</item>
         <item name="svn_menuTextColor">#fafafa</item>
-
     </style>
-
-
-    <!--            Dark Blue                   -->
-
     <style name="Theme.Dark.Blue" parent="@style/Theme.Base.Dark">
-
         <item name="menucenteredtextcolor">#64B5F6</item>
         <item name="recentscreenstextcolor">#ffffff</item>
-
     </style>
-
-    <!--        Black White                    -->
-
-    <!--               black ICS               -->
-
     <style name="Theme.Black.Ics" parent="@style/Theme.Base.Dark">
         <item name="colorPrimary">#000000</item>
         <item name="colorPrimaryDark">#000000</item>
@@ -380,10 +313,7 @@
         <item name="complementary_color3">#80CBC4</item>
         <item name="complementary_color4">#81C784 </item>
         <item name="complementary_color5">#00BCD4</item>
-
     </style>
-
-
     <style name="SublimeTheme_black_ics" parent="@style/SublimeTheme_dark">
         <item name="colorPrimary">#ff33b5e5</item>
         <item name="colorPrimaryDark">#000000</item>
@@ -396,11 +326,7 @@
         <item name="svn_separatorHeight">1dp</item>
         <item name="svn_separatorColor">#80ffffff</item>
         <item name="svn_menuTextColor">#ffffff</item>
-
     </style>
-
-    <!--               black and White            -->
-
     <style name="Theme.Black.White" parent="@style/Theme.Base.Dark">
         <item name="colorPrimary">#212121</item>
         <item name="colorPrimaryDark">#323232</item>
@@ -427,9 +353,7 @@
         <item name="complementary_color3">#7fbfb9</item>
         <item name="complementary_color4">#33b5e5</item>
         <item name="complementary_color5">#ff9047</item>
-
     </style>
-
     <style name="SublimeTheme_black_white" parent="@style/SublimeTheme_dark">
         <item name="colorPrimary">#BDBDBD</item>
         <item name="colorPrimaryDark">#ff010101</item>
@@ -442,13 +366,7 @@
         <item name="svn_separatorHeight">1dp</item>
         <item name="svn_separatorColor">#80ffffff</item>
         <item name="svn_menuTextColor">#ffffff</item>
-
     </style>
-
-
-
-    <!-- common -->
-
     <style name="GrxDialogStyle">
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:windowTitleStyle">@style/GrxTitleStyle</item>
@@ -462,48 +380,30 @@
         <item name="windowActionModeOverlay">true</item>
         <item name="android:windowNoTitle">false</item>
     </style>
-
-
     <style name="ActionButtonOverflow" parent="android:style/Widget.Material.ActionButton.Overflow">
         <item name="android:tint">?threedotscolor</item>
     </style>
-
-
-
     <style name="GrxTitleStyle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title" >
         <item name="android:textSize">17dp</item>
         <item name="android:textColor">?colorAccent</item>
     </style>
-
     <style name="ToolbarTitleAppearance" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
         <item name="android:textSize">17dp</item>
         <item name="android:textColor">?toolbartitlecolor</item>
     </style>
-
     <style name="ToolbarSubtitleAppearance" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
         <item name="android:textSize">14dp</item>
         <item name="toolbartitlecolor">?toolbartitlecolor</item>
         <item name="android:textColor">?toolbarsubtitlecolor</item>
     </style>
-
     <style name="ToolbarDrawerStyle" parent="Widget.AppCompat.DrawerArrowToggle">
         <item name="color">?drawerArrowColor</item>
     </style>
-
-
     <style name="Grx.NoActionBar" parent="Theme.Base.Light.NoActionBar">
-
     </style>
-
-
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
-
-
-
     <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
-        <!--<item name="colorControlNormal">#FFDDD3</item>-->
         <item name="android:textColorPrimary">#FFFFFF</item>
     </style>
     <style name="PickerEditText">
@@ -526,7 +426,6 @@
         <item name="android:layout_gravity">center</item>
         <item name="android:textStyle">normal</item>
     </style>
-
     <style name="grx_st_item_spinner">
         <item name="android:layout_marginStart">8dp</item>
         <item name="android:layout_marginEnd">8dp</item>
@@ -545,7 +444,6 @@
     <style name="grx_st_item_spinner_pulse">
         <item name="android:layout_marginStart">8dp</item>
         <item name="android:layout_marginEnd">8dp</item>
-
         <item name="android:background">?android:selectableItemBackground</item>
         <item name="android:textSize">14sp</item>
         <item name="android:paddingBottom">8dp</item>
@@ -556,11 +454,5 @@
         <item name="android:paddingStart">16dip</item>
         <item name="android:paddingEnd">16dip</item>
         <item name="android:layout_alignParentStart">true</item>
-
-
-
     </style>
-
-
-
 </resources>

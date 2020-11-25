@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:grx="http://schemas.android.com/apk/res-auto">
+<GrxPreferenceCategory android:title="@string/skip_tracks_category" />
+	<GrxSwitchPreference android:title="@string/enable_skip_tracks" android:key="b_skip_tracks" android:defaultValue="false" />
+	<GrxSeekBar android:title="@string/time_skip_tracks" android:dependency="b_skip_tracks"  android:key="b_timeout_skip_tracks" android:defaultValue="500" grx:minValue="350" grx:maxValue="2000" grx:units=" mS" grx:showPopup="true" grx:interval="50"/>
+	<GrxInfoText android:summary="@string/info_skip_tracks" />
+	<GrxCheckBoxPreference android:title="@string/double_tap_skip_tracks"  android:key="b_doble_click_skip_tracks" android:dependency="b_skip_tracks" android:defaultValue="true" />
+	<GrxSeekBar android:title="@string/time_dc_skip_tracks" android:dependency="b_doble_click_skip_tracks"  android:key="b_timeout_dc_skip_tracks" android:defaultValue="500" grx:minValue="100" grx:maxValue="1000" grx:units=" mS" grx:showPopup="true" grx:interval="50"/>
+	<GrxCheckBoxPreference android:title="@string/vibrate_skip_tracks"  android:key="b_vibrate_skip_tracks" android:summary="@string/vibrate_skip_tracks_summary" android:dependency="b_skip_tracks" android:defaultValue="false" />
+	<GrxSeekBar android:title="@string/vibrate_skip_intensity" android:dependency="b_vibrate_skip_tracks"  grx:systemType="system" android:key="VIB_FEEDBACK_MAGNITUDE" android:defaultValue="2" grx:minValue="0" grx:maxValue="5" grx:units="" grx:showPopup="true" grx:interval="1"/>
+</PreferenceScreen>

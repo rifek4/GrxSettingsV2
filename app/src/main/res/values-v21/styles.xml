@@ -1,5 +1,4 @@
 <resources>
-
     <style name="Theme.Base.Light.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>

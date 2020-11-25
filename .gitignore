@@ -8,3 +8,8 @@
 /captures
 /app/build
 /release
+.idea/caches/build_file_checksums.ser
+
+.idea/misc.xml
+
+gradle/wrapper/gradle-wrapper.properties

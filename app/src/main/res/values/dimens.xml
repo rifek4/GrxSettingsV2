@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-
     <dimen name="svn_nav_header_height">160dp</dimen>
     <dimen name="icon_size_in_prefs">36dip</dimen>
-
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="ancho_panel">304dp</dimen>
 	<dimen name="default_slider_height">36dp</dimen>
@@ -19,7 +16,6 @@
     <dimen name="fab_size_normal">56dp</dimen>
     <dimen name="fab_size_mini">40dp</dimen>
     <dimen name="fab_shadow_size">12dp</dimen>
-
     <dimen name="fab_scroll_threshold">4dp</dimen>
     <dimen name="fab_elevation_lollipop">8dp</dimen>
     <dimen name="fab_press_translation_z">6dp</dimen>

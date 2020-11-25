@@ -1,19 +1,11 @@
 <resources>
-
-
-    <!-- APP -->
     <string name="gs_rom_info_option">Rom Info</string>
-
     <string name="grxs_nav_header_bg_title">Imagen Panel Navegación</string>
-
     <string name="grxs_remove_header_img">Eliminar Imagen</string>
     <string name="grxs_change_header_img">Seleccionar nueva imagen</string>
     <string name="grxs_image">Imagen</string>
     <string name="grxs_default">Defecto</string>
-
     <string name="grxs_no_access_selection">Ningún elemento seleccionado</string>
-
-
     <string name="grxs_select_theme">Tema de la aplicación</string>
     <string name="grxs_theme_default">Azul (Light)</string>
     <string name="grxs_theme_default_dark">Azul (Dark)</string>
@@ -30,23 +22,15 @@
     <string name="grxs_theme_light_brown">Marrón (Light))</string>
     <string name="grxs_theme_dark_yellow">Ámbar (Dark)</string>
     <string name="grxs_theme_light_green_orange">Verde-Naraj. (Light))</string>
-
-
     <string name="grxs_theme_black_white">Negro Light</string>
-
-
     <string name="grxs_nav_header_bg">Panel Header Bg</string>
-
     <string name="grxs_selecc_image_usando">Selecciona imagen usand...</string>
     <string name="grxs_error_redondeando">Error redondeando imagen</string>
-
     <string name="grxs_remove">Eliminar</string>
     <string name="grxs_copy_color">Copia Color</string>
-
     <string name="grxs_backup">Backup</string>
     <string name="grxs_restore">Restaurar</string>
     <string name="grxs_restoring_msg">Restaurando y sincronizando las preferencias y archivos del backup %1$s  ...</string>
-
     <string name="grxs_recents_screens_title">Pantallas Recientes</string>
     <string name="grxs_buildprop_simulator">Simular Build Prop</string>
     <string name="grxs_bp_title">Valor actual = %1$s </string>
@@ -54,16 +38,11 @@
     <string name="grxs_bp_simulator_text">blah .....</string>
     <string name="grxs_bp_noroot">Para realizar la demo de propiedades del build.prop se necesita permiso root!</string>
     <string name="grxs_bp_restart">Reiniciando la aplicación para aplicar las reglas basadas en el valor de la propiedad</string>
-
     <string name="grxs_add_new_item">Añade elemento</string>
     <string name="grxs_update_item">Actualizar elemento</string>
-
-
     <string name="grxs_sync_start">Sincronización de preferencias iniciada</string>
     <string name="grxs_sync_end">Sincronización de preferencias finalizadas</string>
     <string name="grxs_synchronizing">Sincronizando preferencias.....</string>
-
-
     <string name="grxs_help">Ayuda</string>
     <string name="grxs_app_help">Ayuda aplicación</string>
     <string name="grxs_back">Volver</string>
@@ -98,51 +77,36 @@
     <string name="grxs_max_choices_warning">Número máximo de elementos alcanzado</string>
     <string name="grxs_current_max_choices">  ( máx = %1$d )</string>
     <string name="grxs_help_sort_long_press">Pulsa Largo sobre items para ordenar</string>
-
     <string name="grxs_activities">Actividades</string>
     <string name="grxs_actions">Acciones</string>
     <string name="grxs_user_apps">Aplicaciones de usuario</string>
     <string name="grxs_shortcuts">Accesos directos</string>
     <string name="grxs_shortcut_error">Algún problema creando acceso directo</string>
-
     <string name="grxs_shortcut_not_allowed">Error lanzando actividad. Algunos accesos/actividades sólo se pueden ejecutar desde aplicaciones de sistema. En otros casos simplemente es que no se puede ejecutar directamente.</string>
-
-
-
-
-
     <string name="grxs_divider_height">Ancho divisor listados prefs.</string>
     <string name="grxs_fab_position">Posición FAB Botón</string>
     <string name="grxs_drawer_right">Forzar posición opuesta</string>
     <string name="grxs_show_fab">Mostrar botón (FAB)</string>
     <string name="grxs_show_groups_buttons">Mostrar botones grupos</string>
-
     <string name="grxs_title_fab_options">Botón Flotante (FAB)</string>
     <string name="grxs_title_theming_options">Tema y Estilos</string>
     <string name="grxs_title_navview_options">Panel Navegación</string>
     <string name="grxs_title_other_options">Otras Opciones</string>
     <string name="grxs_title_rom_app_info_options">Info de Rom y ayuda Aplicación</string>
     <string name="grxs_title_recents_screens_options">Área Flotante Pantallas Recientes</string>
-
-
     <string name="grxs_show_recents_fw">Activar Área Flotante Recientes</string>
     <string name="grxs_show_recents_fw_hint">(pulsando largo en FAB)</string>
     <string name="grxs_hide_recents_fw_back">Ocultar con Tecla Back</string>
     <string name="grxs_hide_recents_fw_outside">Ocultar Tocando Fuera</string>
     <string name="grxs_hide_recents_fw_outside_hint">(siempre se oculta con tecla back)</string>
-
-
-
     <string name="grxs_remember_screen">Recordar Pantalla</string>
     <string name="grxs_groups_open">Grupos de opciones abiertos</string>
-
     <string name="grxs_exit_confirmation">Confirmación para finalizar</string>
     <string name="grxs_exit_title">Finalizar</string>
     <string name="grxs_exit_message">Seguro que quieres salir?</string>
     <string name="grxs_ok">Aceptar</string>
     <string name="grxs_cancel">Cancelar</string>
     <string name="grxs_titulo_def_color_picker">Selecciona Color</string>
-
     <string name="grxs_tit_backup">Backup de preferencias</string>
     <string name="grxs_info_backup">Selecciona un nombre para el backup. No poner extensión</string>
     <string name="grxs_no_valid_name">Nombre de backup no válido</string>
@@ -156,29 +120,22 @@
     <string name="grxs_restore_confirm_message">Realmente quieres restaurar el backup %1$s ?</string>
     <string name="grxs_restore_result_message">Archivo  %1$s restaurado satisfactoriamente. %2$d preferencias restauradas</string>
     <string name="grxs_help_items_colors">Pulsa click para definir el color del item. Con long click podrás copiar el color al portapapeles y usarlo en otro elemento. Con doble click puedes resetear el color a su valor por defecto.</string>
-
-
     <string name="grxs_dialog_color_picker">Color Picker</string>
     <string name="grxs_press_color_to_apply">Pulsa para aplicar</string>
-
     <string name="grxs_color_picker_style">Estilo Color Pickers</string>
     <string name="grxs_circle">Círculo</string>
     <string name="grxs_flower">Flor</string>
     <string name="grxs_square">Cuadrado</string>
-
     <string name="grxs_reboot_dialog_title">Reiniciar el dispositivo?</string>
     <string name="grxs_reboot_dialog_message">Esta preferencia necesita reiniciar el dispositivo para que los cambios tengan efecto.\nQuieres reiniciar el teléfono ahora?</string>
     <string name="grxs_reboot_not_possible">No hemos podido reiniciar el teléfono. Asegurate que o bien tu esta aplicación está instalada en la carpeta priv-app o bien que tienes el teléfono rooteado. Si quieres que los cambios tengan efecto ahora, reinicia manualmente el teléfono. </string>
     <string name="grxs_reboot_problem">Problemas reiniciando!!!</string>
-
     <string name="grxs_killpackage_dialog_title">Reiniciar %1$s ?</string>
     <string name="grxs_killpackage_dialog_message">Esta preferencia necesita reiniciar la siguiente aplicación apara que tenga efecto: %1$s\nPulsa OK para hacerlo ahora o reinicia manualmente el teléfono más tarde?</string>
     <string name="grxs_noroot_granted">No hay acceso Root!!</string>
     <string name="grxs_noroot_action_possible">Esta acción requiere que esta aplicación tenga acceso root!</string>
-
     <string name="grxs_script_array_error">Ha ocurrido un error al ejecutar el script asociado</string>
     <string name="grxs_apply">Aplicar</string>
-
     <string name="grxs_script_dialog_title">Se requiere autorización</string>
     <string name="grxs_script_dialog_msg">Estás seguro que quieres ejecutar esta acción ?</string>
     <string name="grxs_script_file_dialog_msg">Estás seguro que quieres ejecutar este script: %1$s ?</string>
@@ -224,6 +181,5 @@
         - Seleccionar temas\n
         </item>
     </string-array>
-
     <string name="grxs_draganddroptoshortout">Puedes ordenar la lista arrastrando los elementos</string>
 </resources>
